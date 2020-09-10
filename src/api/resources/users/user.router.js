@@ -35,7 +35,7 @@ const upload = multer({ storage: storage, fileFilter: imageFileFilter });
 // @@@@@@@@@@@@@@@@@@@@@@
 //
 userRouter.post('/save',upload.none(), userController.save);
-userRouter.post('/find', userController.find);
+userRouter.get('/find', userController.find);
 
 //
 module.exports = userRouter;
