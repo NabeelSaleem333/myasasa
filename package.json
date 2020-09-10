@@ -1,0 +1,19 @@
+{
+  "name": "my-asasa",
+  "version": "1.0.0",
+  "description": "This package is used for the working of the admin panel of the my asasa.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nabeel Saleem",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.4",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
