@@ -41,7 +41,7 @@ exports.find = async (req, res) => {
     const users = await Users.find();
     console.log("User record found: ", users);
     //
-    if (user.length > 0) {
+    if (users.length > 0) {
       return res.json({
         success: false,
         status: "Users record not found!",
