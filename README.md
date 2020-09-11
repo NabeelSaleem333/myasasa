@@ -1,3 +1,6 @@
-<h1>My Asasa</h1>
+<h3>My Asasa</h3>
 <br/>
-<h3>1- Saving User</h3>
+<h4>1- Saving User</h4>
+<p>https://shaisecommercestore.herokuapp.com/api/users/save</p>
+<h4>2- Finding User</h4>
+<p>https://shaisecommercestore.herokuapp.com/api/users/find</p>
